@@ -1,7 +1,8 @@
 {
   "name": "ssr",
   "version": "2.6.0",
-  "description": "Server side rendering with Express, react-router-4 & redux for Meteor.",
+  "description":
+    "A fork of server side rendering with Express, react-router-4 & redux for Meteor. The only difference is that it allows styles in Helmet header.",
   "main": "ssr.js",
   "scripts": {
     "test": "jest",
@@ -10,14 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ssr-server/ssr.git"
+    "url": "git+https://github.com/rangeoshun/ssr.git"
   },
-  "author": "Pierre-Eric Marchandet <pemarchandet@gmail.com> (http://pem-musing.blogspot.fr/)",
+  "author":
+    "Pierre-Eric Marchandet <pemarchandet@gmail.com> (http://pem-musing.blogspot.fr/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ssr-server/ssr/issues"
+    "url": "https://github.com/rangeoshun/ssr/issues"
   },
-  "homepage": "https://github.com/ssr-server/ssr#readme",
+  "homepage": "https://github.com/rangeoshun/ssr#readme",
   "devDependencies": {
     "actual": "^0.4.0",
     "babel-eslint": "^7.2.3",
